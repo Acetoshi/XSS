@@ -47,7 +47,7 @@
         input.addEventListener("input", updateValue);
 
         function updateValue(e) {
-            log.innerHTML = e.target.value.replace(/<|>/g,'_');
+            log.textContent = e.target.value;
         }
 
     </script>
